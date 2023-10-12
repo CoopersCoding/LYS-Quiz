@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F6F2;
+  }
+
+h1 {
+    font-family: 'karla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F8F6F2;
+    letter-spacing: 2.5px;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E4574F;
+    color: white;
+}
+
+p {
+    font-family: 'karla', sans-serif;
+    font-size: 14px;
+    color: #F8F6F2;
+    letter-spacing: 2.5px;
+    text-align: center;
+    width: 80%;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: #E4574F;
+    color: white;
+}
+
+.title {
+    font-family: 'karla', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F8F6F2;
+    letter-spacing: 2.5px;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E4574F;
+    color: white;
+}
+
+.question {
+    font-family: 'karla';
+    /* font in all caps */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #F8F6F2;
+    background-color: #E4574F;
+    
+    font-size: 16px;
+}
+  
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .question {
+    margin-bottom: 20px;
+  }
+
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .submit-btn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: #F8F6F2;
+    text-transform: uppercase;
+    background-color: #64898D;
+    border: 1px solid #777;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    
+    
+  }
+
+
+  .submit-btn:hover {
+    background-color: #777;
+  }
+
+  #result {
+    margin: 20px auto 0px; 
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    color: #E4574F;
+  }
+
+.footer {
+    font-family: 'karla', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #F8F6F2;
+    letter-spacing: 2.5px;
+    padding: 20px;
+    background-color: #E4574F;
+    color: white;
+  }
