@@ -43,6 +43,8 @@
 </footer>
 
 <script>
+/*  --this formula is a single result algorithm--
+
 document.addEventListener("DOMContentLoaded", function() {
     // Retrieve the results from session storage
     var maxAnswers = JSON.parse(sessionStorage.getItem("maxAnswers"));
@@ -64,5 +66,27 @@ document.addEventListener("DOMContentLoaded", function() {
     // Clear the stored results from session storage
     sessionStorage.removeItem("maxAnswers");
   });
+ */
+ document.addEventListener("DOMContentLoaded", function() {
+  // Retrieve the results from session storage
+  var maxAnswers = JSON.parse(sessionStorage.getItem("maxAnswers"));
+
+  // Display the results
+  var resultContainer = document.getElementById("result");
+  if (maxAnswers.length === 1) {
+    resultContainer.textContent = "Congratulations! Sign up now for the " + maxAnswers[0] + " path!";
+  } else {
+    resultContainer.textContent = "Congratulations! Sign up now for one of the following paths:";
+    for (var i = 0; i < 2; i++) { // Change the condition from maxAnswers.length to 2
+      var listItem = document.createElement("li");
+      listItem.textContent = maxAnswers[i];
+      resultContainer.appendChild(listItem);
+    }
+  }
+
+  // Clear the stored results from session storage
+  sessionStorage.removeItem("maxAnswers");
+});
+
 </script>
   </body>
