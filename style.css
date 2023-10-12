@@ -8,13 +8,12 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     color: #F8F6F2;
+    background-color: #E4574F;
+    margin-top: 20px;
+    padding: 20px;
     letter-spacing: 2.5px;
     text-align: center;
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #E4574F;
-    color: white;
+    
 }
 
 p {
@@ -31,26 +30,12 @@ p {
     color: white;
 }
 
-.title {
-    font-family: 'karla', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: #F8F6F2;
-    letter-spacing: 2.5px;
-    text-align: center;
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #E4574F;
-    color: white;
-}
-
 .question {
     font-family: 'karla';
     /* font in all caps */
     text-transform: uppercase;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 20px 30px;
     color: #F8F6F2;
     background-color: #E4574F;
     
@@ -58,23 +43,26 @@ p {
 }
   
 .container {
-    width: 600px;
-    margin: 0 auto;
+    max-width: 720px;
     padding: 20px;
   }
 
-  .question {
-    margin-bottom: 20px;
+  .result-container {
+    padding-bottom: 50px;
   }
+
+.options {
+    padding-left: 30px;
+}
 
   .options label {
     display: block;
     margin-bottom: 10px;
   }
 
-  .submit-btn {
+.submit-btn {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     padding: 10px 20px;
     color: #F8F6F2;
@@ -84,8 +72,6 @@ p {
     font-family: inherit;
     font-size: 21px;
     display: block;
-    
-    
   }
 
 
