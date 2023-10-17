@@ -47,4 +47,6 @@ document.getElementById("survey-form").addEventListener("submit", function(event
       }
       resultContainer.appendChild(listElement);
     }
-  });
+
+
+});

@@ -6,6 +6,7 @@
     <title>Last Year Single Survey</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <header>
@@ -13,31 +14,28 @@
   </header>
   <body>
 <div id="result"></div>
-<br>
+
+<!-- <button id="pathButton" class="submit-btn" type="button" onclick="window.location.href='https://jackiedorman.com/'">Go to Path Website</button> 
+-->
+    
+<div class="result-container">
+  <p>If your result is: <u><em><strong>DATING CHALLENGE 1</strong></em></u>, you may lack important boundaries in your life. We can help! Based on your answers, you tend to let other people dictate your life and your decision-making process. For example, do you fear the disapproval of others more than your own discomfort? Is “peace at any price” your personal motto? Consider how making everyone else happy may be wearing you out. Worse, you might feel like you don’t have a voice in your own life. We can help! Click <a class= "link" href="https://jackiedorman.com">here</a> to get started.</p>
+
+  <p>If your result is: <u><em><strong>DATING CHALLENGE 2</strong></em></u>, you can learn how to say no and when to say yes in effective ways. Imagine being less manipulated by others and truly able to be yourself in relationships. Experience the freedom God intended for you. Boundaries make life better! Click <a class= "link" href="https://jackiedorman.com">here</a> to get started.</p>
+    
+  <p>If your result is: <u><em><strong>HEARING FROM GOD</strong></em></u>, your boundaries may come and go. How about a tune-up? Based on your answers, you’re aware of the importance in setting limits with other people. However, you might say no sometimes, but then default back to people-pleasing. Certain situations or relationships may cause you to over-commit your time and resources, which makes you feel frustrated. For example, you might be comfortable setting boundaries at work but struggle to set boundaries at home – or vice-versa. Click <a class= "link" href="https://jackiedorman.com">here</a> to get started.</p>
+    
+  <p>If your result is: <u><em><strong>SELF-CARE</strong></em></u>, we can help you address the specific areas where setting boundaries may be difficult, such as with your kids, your spouse, your dating partner, or your workplace. The following books take the concept of boundaries to a much deeper level to help you experience new levels of freedom. Imagine your life with boundaries in all the right places! Click <a class= "link" href="https://jackiedorman.com">here</a> to get started.</p>
+    
+
+    <p>If your result is: <u><em><strong>SELF-IMAGE</strong></em></u>, you are comfortable setting boundaries in your life. You’re ready for the next step! Based on your answers, you seem comfortable setting appropriate boundaries with other people. You recognize potential relationship traps and take steps to avoid them. Your life has a level of freedom that people without boundaries aren’t able to experience.Click <a class= "link" href="https://jackiedorman.com">here</a> to get started.</p>
+    
+    <p>If your result is: <u><em><strong>MINDSET SHIFT CHALLENGE</strong></em></u>, now may be the right time to consider reconciling with someone who broke your trust in the past. For example, do you know how to reconnect with someone after a relationship has been strained? Do you know when someone is ready to be trusted again? Experience the joy of restoring an important relationship by reading Beyond Boundaries. Click <a class= "link" href="https://jackiedorman.com">here</a> to get started.</p>
+</div>
 <div id="retakeQuizBtn"></div>
         <!-- button to retake the quiz and redirect to index.html -->
         <form action="index.html"><button class="submit-btn" type="submit">Retake Quiz</button>
       </form>
-    </div>
-<div class="result-container">
-  <p>If your total score is: 0 – 7 You may lack important boundaries in your life. We can help! Based on your answers, you tend to let other people dictate your life and your decision-making process. For example, do you fear the disapproval of others more than your own discomfort? Is “peace at any price” your personal motto? Consider how making everyone else happy may be wearing you out. Worse, you might feel like you don’t have a voice in your own life. We can help!</p>
-
-  <p>If you read the book, Boundaries, you can learn how to say no and when to say yes in effective ways. Imagine being less manipulated by others and truly able to be yourself in relationships. Experience the freedom God intended for you. Boundaries make life better! Click here to get started.</p>
-    
-  <p>If your total score is: 8 – 14 Your boundaries may come and go. How about a tune-up? Based on your answers, you’re aware of the importance in setting limits with other people. However, you might say no sometimes, but then default back to people-pleasing. Certain situations or relationships may cause you to over-commit your time and resources, which makes you feel frustrated. For example, you might be comfortable setting boundaries at work but struggle to set boundaries at home – or vice-versa.</p>
-    
-  <p>We can help you address the specific areas where setting boundaries may be difficult, such as with your kids, your spouse, your dating partner, or your workplace. The following books take the concept of boundaries to a much deeper level to help you experience new levels of freedom. Imagine your life with boundaries in all the right places! Click the links below:</p>
-    
-  <p>Boundaries in Marriage <br>
-    Boundaries with Kids <br>
-    Boundaries with Teens <br>
-    Boundaries in Dating <br>
-    Boundaries for Leaders</p>
-
-    <p>If your total score is: 15 – 20 You are comfortable setting boundaries in your life. You’re ready for the next step! Based on your answers, you seem comfortable setting appropriate boundaries with other people. You recognize potential relationship traps and take steps to avoid them. Your life has a level of freedom that people without boundaries aren’t able to experience.</p>
-    
-    <p>Since you’re seasoned at establishing boundaries, now may be the right time to consider reconciling with someone who broke your trust in the past. For example, do you know how to reconnect with someone after a relationship has been strained? Do you know when someone is ready to be trusted again? Experience the joy of restoring an important relationship by reading Beyond Boundaries.</p>
-</div>
 <footer>
   <div class="footer">Last Year Single Survey</div>
 </footer>
@@ -85,7 +83,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Clear the stored results from session storage
-  sessionStorage.removeItem("maxAnswers");
+  //sessionStorage.removeItem("maxAnswers"); 
+
+
 });
 
 </script>

@@ -49,6 +49,7 @@ p {
 
   .result-container {
     padding-bottom: 50px;
+    
   }
 
 .options {
@@ -58,6 +59,15 @@ p {
   .options label {
     display: block;
     margin-bottom: 10px;
+  }
+
+.link {
+    color: #331C33;
+    text-decoration: none;
+    font-family: 'karla', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
   }
 
 .submit-btn {
