@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Display the results
   var resultContainer = document.getElementById("result");
   if (maxAnswers.length === 1) {
-    resultContainer.textContent = "Congratulations! Sign up now for the " + maxAnswers[0] + " path!";
+    resultContainer.textContent = "Congratulations! Sign up now for PATH : " + maxAnswers[0] + "!";
   } else {
     resultContainer.textContent = "Congratulations! Sign up now for one of the following paths:";
     for (var i = 0; i < 2; i++) { // Change the condition from maxAnswers.length to 2
