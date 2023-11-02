@@ -32,7 +32,7 @@ h1 {
 
 p {
     font-family: 'karla', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 2.5px;
     text-align: left;
     width: 80%;
@@ -108,7 +108,7 @@ p {
     margin: 20px auto 0px; 
     padding: 10px 20px;
     text-align: center;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: bold;
     color: #E4574F;
   }
@@ -126,7 +126,7 @@ p {
 
   .path-description {
     background-color: #F8F6F2;
-    color: #E4574F;
+    color: #0f0f0f;
     font-weight: bold;
     font-size: 15px;
     padding: 0 5px;
@@ -135,4 +135,8 @@ p {
   .email {
     font-weight: 700;
     color: #212829;
+  }
+
+  .path-title {
+    font-size: 25px;
   }
