@@ -30,6 +30,11 @@ h1 {
     margin: auto;
 }
 
+div.path-description {
+    text-align: center;
+    font-size: large;
+}
+
 p {
     font-family: 'karla', sans-serif;
     font-size: 18px;
