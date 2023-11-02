@@ -35,6 +35,10 @@ div.path-description {
     font-size: large;
 }
 
+.result-indent {
+  padding-left: 50px;
+}
+
 p {
     font-family: 'karla', sans-serif;
     font-size: 18px;
