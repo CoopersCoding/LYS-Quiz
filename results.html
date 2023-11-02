@@ -137,9 +137,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // Display the results
   var resultContainer = document.getElementById("result");
   if (maxAnswers.length === 1) {
-    resultContainer.textContent = "Congratulations! Sign up now for PATH : " + maxAnswers[0] + "!";
+    resultContainer.textContent = "Congratulations! Your survey result is : " + maxAnswers[0] + "!";
   } else {
-    resultContainer.textContent = "Congratulations! Sign up now for one of the following paths:";
+    resultContainer.textContent = "Congratulations! Your survey result is:";
     for (var i = 0; i < 2; i++) { // Change the condition from maxAnswers.length to 2
       var listItem = document.createElement("li");
       listItem.textContent = maxAnswers[i];

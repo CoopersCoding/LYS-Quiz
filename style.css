@@ -108,9 +108,9 @@ p {
     margin: 20px auto 0px; 
     padding: 10px 20px;
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
-    color: #E4574F;
+    color: rgb(156, 69, 65);
   }
 
 .footer {
