@@ -114,7 +114,7 @@
 </footer>
 
 <script>
-/*  --this formula is a single result algorithm--
+/*  --this formula is a single result algorithm-- */
 
 document.addEventListener("DOMContentLoaded", function() {
     // Retrieve the results from session storage
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (maxAnswers.length === 1) {
       resultContainer.textContent = "Congratulations! Sign up now for the " + maxAnswers[0] + " path!";
     } else {
-      resultContainer.textContent = "Please make sure that you answer all the questions to receive your results.";
+      resultContainer.textContent = "Congratulations! Sign up now for the " + maxAnswers[0] + " path!";
       for (var i = 0; i < maxAnswers.length; i++) {
         var listItem = document.createElement("li");
         listItem.textContent = maxAnswers[i];
@@ -137,7 +137,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Clear the stored results from session storage
     sessionStorage.removeItem("maxAnswers");
   });
- */
+ 
+
+ /* --this formula is a multiple result algorithm--
  document.addEventListener("DOMContentLoaded", function() {
   // Retrieve the results from session storage
   var maxAnswers = JSON.parse(sessionStorage.getItem("maxAnswers"));
@@ -160,6 +162,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 });
-
+*/
 </script>
   </body>
